@@ -6,6 +6,7 @@ import DonationPage from './components/DonationPage';
 import AboutUs from './components/AboutUs';
 import LoginForm from './components/LoginForm';
 import ContactUs from './components/ContactUs';
+import Profile from './components/Profile'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/donation" element={<DonationPage />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
       <Footer />
     </Router>
